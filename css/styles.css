@@ -9,6 +9,7 @@
   --border-color: #eeeeee;
   --borger-header: #ececec;
   --card-set-gap: 30px;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -235,7 +236,8 @@ p {
 }
 
 .directions .title,
-.team .title {
+.team .title,
+.clients .title {
   margin-bottom: 50px;
 
   font-size: 36px;
