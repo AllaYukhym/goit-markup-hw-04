@@ -91,16 +91,13 @@ p {
 
 /* ----------------------Navigation-------------------------- */
 .main-nav,
-.header .container {
+.header .container,
+.site-nav {
   display: flex;
   align-items: center;
 }
 
 .site-nav {
-  display: flex;
-}
-
-.main-nav .site-nav {
   margin-left: 93px;
 }
 
@@ -130,6 +127,22 @@ p {
 
 .item-contacts + .item-contacts {
   margin-left: 50px;
+}
+
+.item-contacts .mail,
+.item-contacts .tel {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.mail .header-icon {
+  align-self: center;
 }
 
 .site-nav .mail,
@@ -372,7 +385,7 @@ p {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   border: 1px solid var(--icon-color);
   fill: var(--icon-color);
   border-radius: 4px;
@@ -385,6 +398,10 @@ p {
 }
 
 /* ------------------------------Footer-------------------------------------- */
+.footer .container {
+  display: flex;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -437,6 +454,12 @@ p {
   color: var(--mail-tel-color);
 }
 
+.footer-adress {
+  margin-right: 70px;
+}
+.footer-wrap {
+  align-items: baseline;
+}
 .footer-title {
   margin-bottom: 20px;
 
@@ -449,6 +472,7 @@ p {
 .footer-soc-list {
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 
 .footer-soc-item + .footer-soc-item {
