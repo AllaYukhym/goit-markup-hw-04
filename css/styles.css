@@ -131,18 +131,14 @@ p {
 
 .item-contacts .mail,
 .item-contacts .tel {
-  display: flex;
-  align-content: center;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
 }
 
 .header-icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.mail .header-icon {
-  align-self: center;
 }
 
 .site-nav .mail,
@@ -400,6 +396,7 @@ p {
 /* ------------------------------Footer-------------------------------------- */
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer {
